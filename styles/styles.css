@@ -151,6 +151,17 @@ body {
     grid-template-columns: 400px 400px;
     gap: 100px;
   }
+  
+  .body-about {
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: 200px 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-grow: 1;
+  }
 }
 
 .register-develop {
@@ -190,6 +201,14 @@ body {
     flex-direction: row;
     gap: 50px;
   }
+  
+  .body-about {
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    flex-grow: 1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -203,5 +222,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  
+  .body-about {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
   }
 }
